@@ -5,6 +5,10 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db.init_app(app)
 
+@app.route('/')
+def home():
+    return "Welcome to the Bank Loan API"
+    
 @app.route('/lend', methods=['POST'])
 def lend_money():
     data = request.json
