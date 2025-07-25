@@ -146,7 +146,6 @@ bank-loan-system/
 ├── models.py              # SQLAlchemy models
 ├── requirements.txt       # Required Python packages
 ├── README.md              # Project documentation
-└── .gitignore             # Exclude venv, DB, pycache
 ```
 
 ---
@@ -181,6 +180,7 @@ Feel free to use, modify, and share for learning purposes.
 
 ---
 
-## 🙋‍♀️ Need Help?
+## 📬 Contact  
 
-Raise an issue in the repository or contact the developer.
+For any inquiries or feedback, feel free to reach out:    
+🔗 **GitHub**: [Rachana-Hegde](https://github.com/Rachana-Hegde)  
