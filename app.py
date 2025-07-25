@@ -7,7 +7,7 @@ db.init_app(app)
 
 @app.route('/')
 def home():
-    return "Welcome to the Bank Loan API"
+    return "Welcome to the Bank Loan API \n Please use Thunder Client / Postman to see the output"
     
 @app.route('/lend', methods=['POST'])
 def lend_money():
